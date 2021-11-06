@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+    }
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -30,10 +34,6 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
-body {
-    color: #39a6b2;
-    font-family: Helvetica, Arial, sans-serif;
-    }
 footer {
     background: #fce138;
     width: 100%;
@@ -63,14 +63,14 @@ footer a {
     background-position: center;
 }
 .hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
     position: absolute;
     bottom: 120px;
     right: 140px;
-    border: 3px solid #024e76;
-    color: #024e76;
-    padding: 20px;
-    width: 500px;
-    background-color: #fce138
 }
 .hero-form h3 {
     margin: 0;
@@ -206,7 +206,7 @@ footer a {
     color: #fce138;
     font-size: 32px;
 }
-.contact-info, .contact-info address {
+.contact-info p, .contact-info address {
     margin: 20px 0;
     font-size: 20px;
     line-height: 1.5;
